@@ -44,7 +44,7 @@ pub struct CPU {
     // Registers
     v: [u8; REGISTER_COUNT], // V0, V1 ... VF
     i: usize, // Index
-    pc: usize, // Progrm counter
+    pc: usize, // Program counter
     dt: u8, // Delay timer
     st: u8, // Sound timer
     sp: usize, // Stack pointer

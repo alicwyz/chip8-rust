@@ -22,7 +22,7 @@ impl Window {
 
         let mut win = minifb::Window::new(
             title, WIDTH, HEIGHT,
-            WindowOptions {scale: Scale::X8, ..WindowOptions::default() }
+            WindowOptions {scale: Scale::X16, ..WindowOptions::default() }
         )?;
 
         win.set_target_fps(60);
